@@ -7,3 +7,15 @@ p{
     line-height: 1.5;
     color: #760000;
 }
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{  
+    display: inline;
+    margin-right: 10px;
+}
+nav{
+    background-color: #a09595;
+    padding: 10px;
+}

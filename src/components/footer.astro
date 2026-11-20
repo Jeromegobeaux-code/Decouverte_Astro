@@ -1,0 +1,27 @@
+---
+import Social from "./Social.astro";
+---
+<style> 
+    footer {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+</style>    
+<footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+    <ul>
+        <li><Social platform="twitter" username="Cyprien" /></li>
+        <li><Social platform="github" username="Jeromegobeaux-code" /></li>
+    </ul>
+</footer>   

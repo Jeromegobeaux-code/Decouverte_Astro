@@ -1,7 +1,7 @@
 ---
 import "../style/global.css";
-
-
+import Footer from "../components/footer.astro";
+import Header from "../components/Header.astro";
 ---
 
 <html lang="en">
@@ -14,14 +14,10 @@ import "../style/global.css";
 		<title>Astro</title>
 	</head>
 	<body>
-
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-		</ul>
-
+		<Header />
 		<h1>Astro</h1>
 		<p>THis is juste like normal HTML</p>
 		<a href="/posts/post-1">Go to post 1</a>
+		<Footer />
 	</body>
 </html>

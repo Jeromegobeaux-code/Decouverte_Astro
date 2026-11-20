@@ -1,5 +1,7 @@
 ---
 import "../style/global.css";
+import Footer from "../components/footer.astro";
+import Header from "../components/Header.astro";
 
 const pageTitle = "About Myself";
 
@@ -40,11 +42,8 @@ const pageTitleColor = "cyan";
 		</style>
 	</head>
 	<body>
-<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-		</ul>
 
+		<Header />
 		<h1>{pageTitle}</h1>
 		<p>... and my beautiful smile</p>
 
@@ -66,6 +65,8 @@ const pageTitleColor = "cyan";
 {finished && <p>I finished this tutorial!</p>}
 
 {goal === 5 ? <p>My goal is to finish in 5 days.</p> : <p>My goal is not 5 days.</p>}
+
+<Footer />
 
 	</body>
 </html>
